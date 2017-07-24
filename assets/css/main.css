@@ -150,10 +150,20 @@ input {
 
 
 /****** HOME open ******/
+.header{
+  position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: 1;
+background: url('../images/bg.jpg') no-repeat center center;
+}
 .nav-top{
-  border-bottom: 1px solid #ececec;
   padding-bottom: 10px;
-  margin-top: 10px;
+  background: url('../images/bg-shadow.png') repeat-x center center
 }
 .nav-top .btn-green-left{
   float: right;
@@ -172,12 +182,16 @@ input {
 }
 .navigation-home ul li a{
   font-size:14px;
-  color:#a3a3a3;
+  color:#fff;
   font-weight: 500;
   text-transform: uppercase;
 }
+.navigation-home ul li a:hover{
+  font-weight: 500;
+}
 .navigation-home ul .active a{
-  color: #000000;
+
+  font-weight: 500;
 }
 .navigation-home ul li a .fa{
   padding-left:10px;
