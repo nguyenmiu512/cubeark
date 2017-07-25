@@ -310,15 +310,30 @@ background: url('../images/bg.jpg') no-repeat center center;
 /****** HOME close ******/
 
 
+/****** About open ******/
+.in-box-about .in-cover{
+  overflow: hidden;
+}
+.in-box-about .in-cover img{
+  width: 100%;
+}
+.text-about .text-right{
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 25px;
+  padding: 0px;
+}
+/****** About close ******/
+
 
 /****** Dealers open ******/
-.title-dealers{
+.title-dealers,.title{
   font-size: 26px;
   font-weight: 600;
   border-bottom: 6px solid #afafaf;
   display: table;
   padding-bottom: 7px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 .list-dealer-left{
   padding-left:0px;
@@ -363,10 +378,13 @@ background: url('../images/bg.jpg') no-repeat center center;
 .content-text p{
   text-align: justify;
 }
-.content-text a{
+.content-text a,.text-right .link{
   display: block;
   text-align: right;
   text-decoration: underline;
+}
+.text-right .link{
+  padding:18px 31px;
 }
 .content-text h4{
   font-weight: 600;
@@ -392,9 +410,159 @@ background: url('../images/bg.jpg') no-repeat center center;
   display: block;
   font-weight: 600;
 }
+.text-team{
+  margin-top:38px;
+}
+.in-text-right{
+  padding:0px 31px;
+}
+.in-text-right ul li{
+  padding:0px;
+}
+.in-text-right ul li a{
+  width: 180px;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+.textteam-right{
+  padding-left:0px;
+}
+.in-text-right ul li a img{
+  width: 100%;
+}
+.in-text-right ul li h4{
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.in-text-right ul li span{
+  font-size: 14px;
+  color: #000;
+}
 /****** Dealers close ******/
 
-
+/****** House Type open ******/
+.filter-house{
+  background-color:#f4f4f4;
+  padding: 17px 5px;
+}
+.filter-item .item{
+  height: 100px;
+}
+.filter-item .item h4{
+  font-weight: 600;
+}
+.filter-item .item ul li{
+  display: inline-block;
+  padding-right: 17px;
+}
+.filter-item .item ul{
+  padding-top:10px;
+}
+.filter-item .item ul li a{
+  color:#000;
+  padding:5px 2px;
+  border:1px solid #f4f4f4;
+}
+.filter-item .item ul li a:hover{
+  border:1px solid #000;
+  padding:5px 2px;
+}
+.filter-item .padding-top{
+  padding-top:20px;
+}
+.filter-item .item .inline{
+  display: inline-block;
+}
+.filter-item .item .inline + .inline{
+  margin-left:10px;
+}
+.filter-item .item .radio{
+  color:#999;
+  font-size:15px;
+  position:relative;
+}
+.filter-item .item .radio span{
+  position:relative;
+   padding-left:20px;
+}
+.filter-item .item .radio span:after{
+  content:'';
+  width:15px;
+  height:15px;
+  border:3px solid;
+  position:absolute;
+  left:0;
+  top:1px;
+  border-radius:100%;
+  -ms-border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.filter-item .item .radio input[type="radio"]{
+   cursor: pointer;
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+.filter-item .item .radio input[type="radio"]:checked + span{
+  color:#000;
+}
+.filter-item .item .radio input[type="radio"]:checked + span:before{
+    content:'';
+  width:5px;
+  height:5px;
+  position:absolute;
+  background:#000;
+  left:5px;
+  top:6px;
+  border-radius:100%;
+  -ms-border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+}
+.filter-result{
+  margin-top:20px;
+}
+.filter-result .result-item{
+  margin-bottom:40px;
+}
+.filter-result,.filter-result .result-item{
+  padding:0px;
+}
+.filter-result .result-item a.link-result{
+  display: block;
+  width: 350px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.filter-result .result-item a.link-result:hover,.filter-result .result-item:hover h4,
+.filter-result .result-item:hover span{
+  color:#afafaf;
+}
+.filter-result .result-item h4{
+  color:#000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.filter-result .result-item span{
+  font-size: 14px;
+  color:#000;
+}
+.filter-result .result-item .link-result img{
+  width: 100%;
+}
+/****** House Type close ******/
 
 
 /****** House type detail open ******/
