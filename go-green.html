@@ -9,25 +9,26 @@
     <!-- jQuery -->
     <script src="assets/lib/jquery/jquery.min.js"></script>
 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="assets/lib/addthis/addthis_widget.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
     <!-- Boostrap -->
     <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- bxSlider Javascript file -->
-    <script src="assets/lib/jquery.bxslider/jquery.bxslider.min.js"></script>
-    <!-- bxSlider CSS file -->
-    <link href="assets/lib/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
 
 
     <!-- Font awesome -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet"/>
 
     <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
     <!-- CSS Documents -->
     <link rel="stylesheet" href="assets/fonts/nutino_sans/stylesheet.css" type="text/css" charset="utf-8"/>
     <link href="assets/css/main.css" rel="stylesheet"/>
+    <link href="assets/css/main-hai.css" rel="stylesheet"/>
     <link href="assets/css/responsive.css" rel="stylesheet"/>
 
     <link rel="shortcut icon" href="assets/images/favicon.png"/>
@@ -59,8 +60,8 @@
                                       <a href="about.html">About us<i class="fa fa-angle-right" aria-hidden="true"></i>
 </a>
                                   </li>
-                                  <li class="active  main-nav">
-                                      <a href="house-type-detail.html">House Types<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                  <li class="main-nav">
+                                      <a href="house-type.html">House Types<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                   </li>
                                   <li class="main-nav">
                                       <a href="insp.html">Inspiration<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -69,7 +70,7 @@
                                   <li class="main-nav">
                                       <a href="go-green.html">Go green<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                   </li>
-                                  <li class="main-nav">
+                                  <li class="main-nav active">
                                       <a href="dealer.html">Dealers</a>
                                   </li>
                               </ul>
@@ -144,61 +145,73 @@
 
 
     <!--BOX MAIN HOME open-->
-    <div class="box-housetype-detail">
+    <div class="box-dealers go-green">
         <div class="container container-custom">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hs-detail">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cover">
-                <img src="assets/images/cover-house-type-detail.jpg" />
-                <h3>House 8</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</span>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-box-dealers in-box-green">
+
+              <!--about list dealers open-->
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 list-dealer-left list-go-green">
+                <h3 class="title title-dealers">Go GREEN</h3>
+                <h4>
+                    <img src="assets/images/icon-go-green.jpg"/>
+                    <span>Live eco-friendly<span>
+                  </h4>
+                <ul>
+                  <li>
+                    <a href="#">Excess heat from the indoor air</a>
+                  </li>
+                  <li>
+                    <a href="#">Window with a good u value</a>
+                  </li>
+                  <li>
+                    <a href="#">One radiator on each floor can heat the
+whole house</a>
+                  </li>
+                  <li>
+                    <a href="#">Are used to heat the incoming air and tap water</a>
+                  </li>
+                  <li>
+                    <a href="#">Efficent insulation
+</a>
+                  </li>
+                  <li>
+                    <a href="#">Solar cells (photovoltaic panels)
+150m2 - 19200Kw/h-year</a>
+                  </li>
+                  <li>
+                    <a href="#">Grey water heat recovery, drain water heat recovery</a>
+                  </li>
+                  <li>
+                    <a href="#">Radiant  floor heating heats the house</a>
+                  </li>
+                  <li>
+                    <a href="#">The boiler gets heated water from the solar collectors, an enegry ...</a>
+                  </li>
+                </ul>
               </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 desc-item">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item"></div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item"></div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item"></div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-desc">
-                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 desc">
-                      <img src="assets/images/ground-floor.png" />
+              <!--about list dealers close-->
+
+              <!--about text open-->
+              <div class="co-lg-9 col-md-9 col-sm-9 col-xs-12 detail-dealers detail-go-green">
+
+                <div class="content-dealers content-go-green">
+                  <div class="img-dealers img-gogreen">
+                    <img src="assets/images/cover-go-green.png" />
+                  </div>
+                  <div class="content-text content-gogreen">
+                    <div class="col-lg-6 co-md-6 col-sm-6 col-xs-12">
+                      <h4>Lorem ipsum ztdolor sit </h4>
+                      <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                      </p>
+                    </div>
+                    <div class="col-lg-6 co-md-6 col-sm-6 col-xs-12">
+                      <img src="assets/images/img-gogreen.jpg" />
+                    </div>
+
                 </div>
-                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 desc">
-                      <img src="assets/images/first-floor.png" />
-                </div>
               </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-slide">
-                <ul class="bxslider">
-                    <li><img src="assets/images/slide1.jpg" /></li>
-                    <li><img src="assets/images/slide2.jpg" /></li>
-                  </ul>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 other-pj">
-                <h4 class="title-housetype">INTERIOR PROJECTS</h4>
-                <ul class="bxslider2">
-                    <li><img src="assets/images/interior-slide.jpg" /></li>
-                    <li><img src="assets/images/interior-slide.jpg" /></li>
-                  </ul>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 same-pj">
-                  <h4 class="title-housetype">SIMILAR PROJECT</h4>
-                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item-pj">
-                    <a href="#">
-                      <img src="assets/images/similar.jpg" />
-                      <h4>house 1</h4>
-                    </a>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item-pj">
-                    <a href="#">
-                      <img src="assets/images/similar2.jpg" />
-                      <h4>house 2</h4>
-                    </a>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item-pj">
-                    <a href="#">
-                      <img src="assets/images/similar3.jpg" />
-                      <h4>house 3</h4>
-                    </a>
-                  </div>
-              </div>
+              <!--about text close-->
 
 
 
@@ -307,12 +320,59 @@
 
 <!-- Document JS ------------------------>
 <script type="text/javascript">
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
-$(document).ready(function(){
-  $('.bxslider2').bxSlider();
-});
+
+
+    $(function () {
+        $(".video").click(function () {
+            var theModal = $(this).data("target"),
+                    videoSRC = $(this).attr("data-video");
+            $(theModal + ' iframe').attr('src', videoSRCauto);
+            $(theModal + ' button.close').click(function () {
+                $(theModal + ' iframe').attr('src', videoSRC);
+            });
+        });
+        $('#videoModal').on('hidden.bs.modal', function () {
+            $("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
+        });
+
+
+        $('ul li#new-release').on('click', function (e) {
+            e.preventDefault();
+            $('.result-report2').css({'display': 'none'});
+            $('.result-report3').css({'display': 'none'});
+            $('.result-report4').css({'display': 'none'});
+            $('#nrelease').css({'display': 'block'});
+        });
+        $('ul li#coming-soon').on('click', function (e) {
+            e.preventDefault();
+            $('.result-report').css({'display': 'none'});
+            $('.result-report3').css({'display': 'none'});
+            $('.result-report4').css({'display': 'none'});
+            $('#cmingsoon').css({'display': 'block'});
+        });
+        $('ul li#best-seller').on('click', function (e) {
+            e.preventDefault();
+            $('.result-report').css({'display': 'none'});
+            $('.result-report2').css({'display': 'none'});
+            $('.result-report4').css({'display': 'none'});
+            $('#bseller').css({'display': 'block'});
+        });
+        $('ul li#award').on('click', function (e) {
+            e.preventDefault();
+            $('.result-report').css({'display': 'none'});
+            $('.result-report2').css({'display': 'none'});
+            $('.result-report3').css({'display': 'none'});
+            $('#aseller').css({'display': 'block'});
+        });
+
+        $('.progressbar li').click(function (e) {
+            e.preventDefault();
+            $('.progressbar li').removeClass('active');
+            $(this).addClass('active');
+        });
+
+
+    });
 </script>
 
 <script type="text/javascript">
@@ -333,6 +393,8 @@ $(document).ready(function(){
     });
 </script>
 
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e8109fe6250fb5"></script>
 </body>
 
 </html>
