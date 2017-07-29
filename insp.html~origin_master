@@ -55,7 +55,7 @@
                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-10 nav-home">
                           <div class="navigation-home2">
                               <ul>
-                                  <li class="active main-nav">
+                                  <li class="main-nav">
                                       <a href="about.html">About us<i class="fa fa-angle-right" aria-hidden="true"></i>
 </a>
                                   </li>
@@ -63,13 +63,13 @@
                                       <a href="house-type.html">House Types<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                   </li>
                                   <li class="main-nav">
-                                      <a href="#">Inspiration<i class="fa fa-angle-right" aria-hidden="true"></i>
+                                      <a href="insp.html">Inspiration<i class="fa fa-angle-right" aria-hidden="true"></i>
                                       </a>
                                   </li>
                                   <li class="main-nav">
                                       <a href="go-green.html">Go green<i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                   </li>
-                                  <li class="main-nav">
+                                  <li class="main-nav active">
                                       <a href="dealer.html">Dealers</a>
                                   </li>
                               </ul>
@@ -144,179 +144,85 @@
 
 
     <!--BOX MAIN HOME open-->
-    <div class="box-housetype">
+    <div class="box-inspiration">
         <div class="container container-custom">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-box-dealers">
-              <h3 class="title title-dealers">HOUSE TYPE</h3>
-              <!--filter open-->
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 filter-house">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 filter-item">
-                  <div class="item">
-                    <h4>Størrelse ̣BRA</h4>
-                    <ul>
-                      <li>
-                        <label class="radio inline">
-                          <input type="radio" name="sex" value="male" checked>
-                          <span> <img src="assets/images/icon-bra-100.png" /></span>
-                       </label>
-                      </li>
-                      <li>
-                        <label class="radio inline">
-                          <input type="radio" name="sex" value="male" checked>
-                          <span> <img src="assets/images/icon-bra-100x200.png" /></span>
-                       </label>
-                      </li>
-                      <li>
-                        <label class="radio inline">
-                          <input type="radio" name="sex" value="male" checked>
-                          <span> <img src="assets/images/icon-bra-300.png" /></span>
-                       </label>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="item padding-top">
-                    <h4>Number of plans</h4>
-                    <ul>
-                      <li>
-                        <a href="#">1,5</a>
-                      </li>
-                      <li>
-                        <a href="#">2</a>
-                      </li>
-                      <li>
-                        <a href="#">2,5</a>
-                      </li>
-                      <li>
-                        <a href="#">3</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 filter-item">
-                  <div class="item">
-                    <h4>Antall soverom</h4>
-                    <ul>
-                      <li>
-                        <label class="radio inline">
-                          <input type="radio" name="sex" value="male" checked>
-                          <span> <img src="assets/images/icon-soveroom1-3.png" /></span>
-                       </label>
-                      </li>
-                      <li>
-                        <label class="radio inline">
-                          <input type="radio" name="sex" value="male" checked>
-                          <span> <img src="assets/images/icon-soveroom3.png" /></span>
-                       </label>
-                      </li>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-box-about">
 
-                    </ul>
+
+              <!--about text open-->
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-inspi">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+                    <h3 class="title title-about">INSPIRATION</h3>
                   </div>
-                  <div class="item padding-top">
-                    <h4>Number of bathroom</h4>
-                    <ul>
-                      <li>
-                        <a href="#">1</a>
-                      </li>
-                      <li>
-                        <a href="#">2</a>
-                      </li>
-                      <li>
-                        <a href="#">3</a>
-                      </li>
-                      <li>
-                        <a href="#">4+</a>
-                      </li>
-                    </ul>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-inspi">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 textspi-left">
+                      <ul>
+                        <li>
+                          <div class="in-text-right">
+                            <a class="img-spi" href="#">
+                              <img src="assets/images/img-inspi1.png" />
+                            </a>
+                            <a href="#" class="link-title-inspi">
+                                <h3 class="title-inspi">Lorem ipsum dolor sit amet</h3>
+                            </a>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis elit consequat, euismod massa in, tincidunt dui.
+        Donec a lacinia nisl. Fusce a ex ipsum. Quisque dignissim ultrices eros at finibus. Pellentesque hendrerit enim et erat vestibulum, ac porta dolor fringilla.
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="in-text-right">
+                            <a class="img-spi" href="#">
+                              <img src="assets/images/img-inspi1.png" />
+                            </a>
+                            <a href="#" class="link-title-inspi">
+                                <h3 class="title-inspi">Lorem ipsum dolor sit amet</h3>
+                            </a>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis elit consequat, euismod massa in, tincidunt dui.
+        Donec a lacinia nisl. Fusce a ex ipsum. Quisque dignissim ultrices eros at finibus. Pellentesque hendrerit enim et erat vestibulum, ac porta dolor fringilla.
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 textspi-right">
+                        <ul>
+                          <li>
+                            <div class="in-text-right">
+                              <a class="img-spi" href="#">
+                                <img src="assets/images/img-inspi2.png" />
+                              </a>
+                              <a href="#" class="link-title-inspi">
+                                  <h3 class="title-inspi">Lorem ipsum dolor sit amet</h3>
+                              </a>
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis elit consequat, euismod massa in, tincidunt dui.
+          Donec a lacinia nisl. Fusce a ex ipsum. Quisque dignissim ultrices eros at finibus. Pellentesque hendrerit enim et erat vestibulum, ac porta dolor fringilla.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="in-text-right">
+                              <a class="img-spi" href="#">
+                                <img src="assets/images/img-inspi2.png" />
+                              </a>
+                              <a href="#" class="link-title-inspi">
+                                  <h3 class="title-inspi">Lorem ipsum dolor sit amet</h3>
+                              </a>
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis elit consequat, euismod massa in, tincidunt dui.
+          Donec a lacinia nisl. Fusce a ex ipsum. Quisque dignissim ultrices eros at finibus. Pellentesque hendrerit enim et erat vestibulum, ac porta dolor fringilla.
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                        </div>
+
                   </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 filter-item">
-                  <div class="item">
-                    <h4>Green features</h4>
-                    <ul>
-                      <li>
-                        <a href="#">Solar panel </a>
-                      </li>
-                      <li>
-                        <a href="#">Green house </a>
-                      </li>
-                      <li>
-                        <a href="#">Solar heater</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="item padding-top">
-                    <h4>Inside garage</h4>
-                    <ul>
-                      <li>
-                        <a href="#">With</a>
-                      </li>
-                      <li>
-                        <a href="#">Without</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </div>
-              <!--filter close-->
-
-              <!--result filter open-->
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 filter-result">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 result-item">
-                  <a href="house-type-detail.html" class="link-result">
-                    <img src="assets/images/house-type1.jpg" />
-                    <h4>Park Avenue Apartment</h4>
-                    <span>180m2 / 2 bedroom / 2 bathroom
-                          Solar heater / Solar panel / Green house</span>
-
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 result-item">
-                  <a href="house-type-detail.html" class="link-result">
-                    <img src="assets/images/house-type2.jpg" />
-                    <h4>Park Avenue Apartment</h4>
-                    <span>180m2 / 2 bedroom / 2 bathroom
-                          Solar heater / Solar panel / Green house</span>
-
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 result-item">
-                  <a href="house-type-detail.html" class="link-result">
-                    <img src="assets/images/house-type3.jpg" />
-                    <h4>Park Avenue Apartment</h4>
-                    <span>180m2 / 2 bedroom / 2 bathroom
-                          Solar heater / Solar panel / Green house</span>
-
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 result-item">
-                  <a href="house-type-detail.html" class="link-result">
-                    <img src="assets/images/house-type4.jpg" />
-                    <h4>Park Avenue Apartment</h4>
-                    <span>180m2 / 2 bedroom / 2 bathroom
-                          Solar heater / Solar panel / Green house</span>
-
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 result-item">
-                  <a href="house-type-detail.html" class="link-result">
-                    <img src="assets/images/house-type5.jpg" />
-                    <h4>Park Avenue Apartment</h4>
-                    <span>180m2 / 2 bedroom / 2 bathroom
-                          Solar heater / Solar panel / Green house</span>
-
-                  </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 result-item">
-                  <a href="house-type-detail.html" class="link-result">
-                    <img src="assets/images/house-type6.jpg" />
-                    <h4>Park Avenue Apartment</h4>
-                    <span>180m2 / 2 bedroom / 2 bathroom
-                          Solar heater / Solar panel / Green house</span>
-
-                  </a>
-                </div>
-              </div>
-              <!--result filter close-->
+              <!--about text close-->
 
 
 

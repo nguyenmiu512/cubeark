@@ -343,15 +343,18 @@ background: url('../images/bg.jpg') no-repeat center center;
   padding: 17px 5px;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 13px;
+  border-left: 1px solid #cccccc;
 }
 .list-dealer-left ul li:hover{
   background:url("../images/arrow-right.png") no-repeat center right #f0f5fa;
+  border-left: 1px solid #f0f5fa;
 }
 .list-dealer-left ul li a{
   font-size: 16px;
   color: #333333;
   display: block;
   overflow: hidden;
+  width: 200px;
 }
 .select-area{
   margin-top:40px;
@@ -441,6 +444,61 @@ background: url('../images/bg.jpg') no-repeat center center;
   color: #000;
 }
 /****** Dealers close ******/
+
+/****** Go Green open ******/
+.content-go-green{
+  margin-top:80px;
+}
+.content-gogreen{
+  top:0px;
+  margin-top:20px;
+}
+.img-gogreen{
+  padding: 0px 64px;
+  height: inherit;
+}
+.content-gogreen h4{
+  margin-top:0px;
+}
+/****** Go Green close ******/
+
+/****** Inspiration open ******/
+.img-spi img{
+  width: 100%;
+}
+.textspi-left .img-spi{
+  display: block;
+  overflow: hidden;
+  height: auto;
+  width: 484px;
+}
+.textspi-right .img-spi{
+  display: block;
+  overflow: hidden;
+  height: auto;
+  width: 483px;
+}
+.textspi-left,
+.textspi-right {
+  padding-right:35px;
+}
+.textspi-left .in-text-right,
+.textspi-right .in-text-right{
+  padding:0px;
+  overflow: hidden;
+}
+.textspi-left p{
+  text-align: justify;
+}
+.content-inspi{
+  padding-left:0px;
+}
+.link-title-inspi{
+  color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+/****** Inspiration close ******/
 
 /****** House Type open ******/
 .filter-house{
