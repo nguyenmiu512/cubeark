@@ -150,8 +150,27 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 in-box-dealers">
 
               <!--about list dealers open-->
-              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 list-dealer-left">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 list-dealer-left">
                 <h3 class="title title-dealers">DEALERS</h3>
+                <div class="select-area">
+                    <h4>Area selection</h4>
+                    <select>
+                      <option value="distric">District</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                    </select>
+                    <select>
+                      <option value="distric">City</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                      <option value="distric">1</option>
+                    </select>
+                </div>
                 <ul>
                   <li>
                     <a href="#">Name detalers 01</a>
@@ -179,26 +198,8 @@
               <!--about list dealers close-->
 
               <!--about text open-->
-              <div class="co-lg-9 col-md-9 col-sm-9 col-xs-12 detail-dealers">
-                <div class="select-area">
-                    <h4>Area selection</h4>
-                    <select>
-                      <option value="distric">District</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                    </select>
-                    <select>
-                      <option value="distric">City</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                      <option value="distric">1</option>
-                    </select>
-                </div>
+              <div class="co-lg-8 col-md-8 col-sm-8 col-xs-12 detail-dealers">
+
                 <div class="content-dealers">
                   <div class="img-dealers">
                     <img src="assets/images/cover-dealer.jpg" />
@@ -209,31 +210,7 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
                     <a class="view-more" href="#">Read Full Post</a>
-                    <div class="map-dealers">
-                      <span><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</span>
-                      <span>Aenean quis dolor orci. Aenean
-                      urna ex, quis luctus dolor elemen</span>
-                      <div class="map-google">
-                        <div id="map" style="width:100%;height:400px;">
-                          <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-                          <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtBVBjkHxsxmaT98LB62grkTWkNVSa1no&callback=initMap">
-    </script>
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
               </div>
               <!--about text close-->
@@ -242,6 +219,32 @@
 
             </div>
         </div>
+        <div class="map-google">
+          <div class="map-dealers">
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION</span>
+            <span>Aenean quis dolor orci. Aenean
+            urna ex, quis luctus dolor elemen</span>
+
+        </div>
+          <div id="map" style="width:100%;height:400px;">
+            <script>
+function initMap() {
+var uluru = {lat: -25.363, lng: 131.044};
+var map = new google.maps.Map(document.getElementById('map'), {
+zoom: 4,
+center: uluru
+});
+var marker = new google.maps.Marker({
+position: uluru,
+map: map
+});
+}
+</script>
+            <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtBVBjkHxsxmaT98LB62grkTWkNVSa1no&callback=initMap">
+</script>
+        </div>
+      </div>
     </div>
 
     <!--BOX MAIN HOME close-->

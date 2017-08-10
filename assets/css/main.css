@@ -355,27 +355,27 @@ background: url('../images/bg.jpg') no-repeat center center;
   display: block;
   overflow: hidden;
   width: 200px;
+  padding-left:10px;
 }
 .select-area{
-  margin-top:40px;
+    margin-bottom: 40px;
 }
 .select-area h4{
   display: inline-block;
 }
 .img-dealers{
-  width: 782px;
-  height:483px;
+  width: 90%;
+  height: auto;
   overflow: hidden;
-  margin-top:25px;
+  margin: 55px auto;
+  margin-bottom: 10px;
 }
 .img-dealers img{
   width: 100%;
 }
 .content-text{
   background-color:#fff;
-  top: -50px;
   position: relative;
-  margin: auto 43px;
   padding: 10px 30px;
 }
 .content-text p{
@@ -395,7 +395,7 @@ background: url('../images/bg.jpg') no-repeat center center;
   color:#000;
 }
 .select-area select{
-  width: 200px;
+  width: auto;
   border: none;
   background-color: #ececec;
   padding: 20px 10px;
