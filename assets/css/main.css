@@ -39,8 +39,8 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     background: #fff;
-    color: #414a50;
-    font-family: 'Nunito', sans-serif !important;
+    color: #666666;
+    font-family: 'Roboto', sans-serif !important;
     position: relative;
 }
 
@@ -171,6 +171,7 @@ background: url('../images/bg.jpg') no-repeat center center;
 }
 .nav-top2{
   padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
 }
 .nav-top .btn-green-left,
 .nav-top2 .btn-green-left{
@@ -414,7 +415,7 @@ background: url('../images/bg.jpg') no-repeat center center;
   font-weight: 600;
 }
 .text-team{
-  margin-top:38px;
+  margin: 38px 0px;
 }
 .in-text-right{
   padding:0px 31px;
@@ -427,6 +428,7 @@ background: url('../images/bg.jpg') no-repeat center center;
   height: auto;
   display: block;
   overflow: hidden;
+  text-align: center;
 }
 .textteam-right{
   padding-left:0px;
@@ -435,13 +437,14 @@ background: url('../images/bg.jpg') no-repeat center center;
   width: 100%;
 }
 .in-text-right ul li h4{
-  color: #000;
+  color: #93654e;
   font-size: 18px;
-  font-weight: 600;
+  text-align: center;
 }
 .in-text-right ul li span{
   font-size: 14px;
   color: #000;
+  text-decoration: underline;
 }
 /****** Dealers close ******/
 
@@ -509,20 +512,22 @@ background: url('../images/bg.jpg') no-repeat center center;
   height: 100px;
 }
 .filter-item .item h4{
-  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 16px;
 }
 .filter-item .item ul li{
   display: inline-block;
-  padding-right: 17px;
+  padding-right: 12px;
 }
 .filter-item .item ul{
   padding-top:10px;
 }
 .filter-item .item ul li a{
-  color:#000;
+  color:#848484;
   padding:5px 2px;
   border:1px solid #f4f4f4;
 }
+
 .filter-item .item ul li a:hover{
   border:1px solid #000;
   padding:5px 2px;
@@ -602,7 +607,8 @@ background: url('../images/bg.jpg') no-repeat center center;
   width: 350px;
   height: auto;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 6px auto;
+  padding: 0px 17px;
 }
 .filter-result .result-item a.link-result:hover,.filter-result .result-item:hover h4,
 .filter-result .result-item:hover span{
@@ -612,6 +618,7 @@ background: url('../images/bg.jpg') no-repeat center center;
   color:#000;
   font-size: 18px;
   font-weight: 600;
+  margin: 19px 0px;
 }
 .filter-result .result-item span{
   font-size: 14px;
@@ -665,7 +672,7 @@ background: url('../images/bg.jpg') no-repeat center center;
 }
 .item ul li{
   border-bottom:1px solid #ececec;
-  padding:4px 0px;
+  padding: 4px 17px 4px 0px;
 }
 .item ul li .text-left{
   text-align:left;
