@@ -218,14 +218,14 @@ background: url('../images/bg.jpg') no-repeat center center;
 .top-logo .header-logo{
   background:url("../images/logo-top.png") no-repeat center center;
   width: 236px;
-  height: 58px;
+  height: 91px;
   display: block;
   text-decoration: 9999;
 }
 .top-logo .header-logo2{
   background:url("../images/logo-top2.png") no-repeat center center;
   width: 236px;
-  height: 58px;
+  height: 91px;
   display: block;
   text-decoration: 9999;
 }
@@ -642,6 +642,38 @@ background: url('../images/bg.jpg') no-repeat center center;
 }
 .img-desc{
   margin:45px 0px;
+}
+.img-desc .desc{
+  overflow: hidden;
+  text-align: center;
+}
+.img-desc .desc img{
+  width: 100%;
+  margin:0 auto;
+}
+.desc-item{
+  padding:20px 0px;
+}
+.desc-item .text-farkta{
+  text-align: center;
+  font-weight: bold;
+  padding:10px 0px;
+  margin-top:20px;
+}
+.item{
+  padding:0px 10px;
+}
+.item ul li{
+  border-bottom:1px solid #ececec;
+  padding:4px 0px;
+}
+.item ul li .text-left{
+  text-align:left;
+}
+.item ul li .text-right{
+  float: right;
+  font-weight: bold;
+
 }
 .other-pj h4{
   text-align: center;
