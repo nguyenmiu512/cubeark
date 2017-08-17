@@ -333,11 +333,11 @@ background: url('../images/bg.jpg') no-repeat center center;
   border-bottom: 1px solid #ececec;
   display: table;
   padding-bottom: 14px;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
+  font-weight: normal;
 }
 .list-dealer-left{
   padding-left:0px;
-  margin-top:20px;
 }
 .list-dealer-left ul li{
   padding: 17px 5px;
@@ -345,10 +345,21 @@ background: url('../images/bg.jpg') no-repeat center center;
   padding-bottom: 13px;
   border-left: 1px solid #cccccc;
 }
-.list-dealer-left ul li:hover{
+.list-dealer-left ul li:hover,
+.list-dealer-left ul .active{
   background:url("../images/arrow-right.png") no-repeat center right #f0f5fa;
   border-left: 1px solid #f0f5fa;
 }
+.map-google .map-img{
+  text-align: center;
+  height: 400px;
+  overflow: hidden;
+}
+.map-google .map-img img{
+  width: 100%;
+
+}
+
 .list-dealer-left ul li a{
   font-size: 16px;
   color: #333333;
@@ -487,11 +498,28 @@ background: url('../images/bg.jpg') no-repeat center center;
 }
 .textspi-left .in-text-right,
 .textspi-right .in-text-right{
-  padding:0px;
+  padding:10px 0px;
   overflow: hidden;
 }
-.textspi-left p{
-  text-align: justify;
+.textspi-left p,
+.textspi-right p{
+  line-height: 25px;
+  font-size: 14px;
+  padding: 0px 9px;
+}
+.link-title-inspi .title-inspi{
+  display: block;
+  width: 78%;
+}
+.link-title-inspi .time-date{
+  width: 20%;
+  font-weight: 100;
+  font-size: 16px;
+  float: right;
+  margin-top: 26px;
+}
+.link-title-inspi .title-inspi, .link-title-inspi .time-date{
+  display: inline-block;
 }
 .content-inspi{
   padding-left:0px;
@@ -500,6 +528,10 @@ background: url('../images/bg.jpg') no-repeat center center;
   color: #000;
     font-size: 18px;
     font-weight: 600;
+    display: block;
+background-color: #ececec;
+padding: 0px 9px;
+margin: 0px 0px 10px 0px;
 }
 /****** Inspiration close ******/
 
@@ -644,6 +676,10 @@ background: url('../images/bg.jpg') no-repeat center center;
 }
 .hs-detail .cover{
   overflow: hidden;
+}
+.hs-detail .cover span{
+  line-height: 26px;
+  font-size: 16px;
 }
 .hs-detail .cover img{
   width: 100%;
