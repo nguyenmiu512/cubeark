@@ -168,8 +168,53 @@
     padding: 15px 2px;
   }
 .menu-mobile .navbar-inverse{
-  background-color: #980700;
-  border-color: #980700;
+  background-color: #ffffff;
+  border-color: #dadada;
+}
+.navbar-toggle{
+  background-color:#000;
+}
+.in-box-dealers,
+.in-box-dealers .filter-item,
+.in-box-about,
+.in-text-right,
+.text-about,
+.hs-detail{
+  padding:0px;
+}
+.filter-item .item ul,
+.filter-item .item h4,
+.text-right .link{
+  text-align: center;
+}
+.title-dealers, .title{
+  display: block;
+  text-align: center;
+}
+.filter-result .result-item{
+  width: auto;
+  padding: 0px;
+}
+.in-text-right ul li{
+  margin:10px 0px;
+}
+.item-pj a,
+.in-text-right ul li a{
+  width: auto;
+}
+.textspi-left, .textspi-right,
+.content-inspi{
+  padding:0px;
+}
+.textspi-left .img-spi{
+  width: auto;
+}
+
+.hs-detail .cover{
+  padding:0px;
+}
+.same-pj .item-pj{
+  margin:10px 0px;
 }
 .dashboard-block .dashboard-block-chart{
   margin-top: 0px;
