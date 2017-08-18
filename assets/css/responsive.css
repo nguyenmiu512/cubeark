@@ -223,6 +223,7 @@
 }
 .header{
   background-size: cover;
+  background-attachment: fixed;
 }
 .cover-detail{
   padding: 0px;
