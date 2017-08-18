@@ -145,7 +145,20 @@ input {
     font-size: 20px;
     color: #404040;
 }
-
+.cover-detail{
+  padding: 0px 100px;
+}
+.cover-detail .title-inspi{
+  margin-top:10px;
+}
+.cover-detail .time-date{
+  margin-top:13px !important;
+  text-align: right;
+  padding-right:10px;
+}
+.cover-detail p{
+  line-height: 23px;
+}
 /****BOX SIDE RIGHT close****/
 
 
@@ -283,7 +296,7 @@ background-attachment:fixed;
   padding: 15px 0px;
 }
 .ft-logo .link-ft-logo{
-  background: url('../images/logo-ft.png') no-repeat center center;
+  background: url('../images/logo-ft-desk.png') no-repeat center center;
   display: block;
   width: 314px;
   height:77px;

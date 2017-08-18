@@ -221,6 +221,9 @@
 .hs-detail .cover{
   padding:0px;
 }
+.header{
+  background-size: cover;
+}
 .same-pj .item-pj{
   margin:10px 0px;
 }
