@@ -157,13 +157,6 @@
       background-color: #950700;
       height: 80px;
     }
-.menu-mobile  .navbar-logo-mobile{
-  background: url(../images/sprites.png) no-repeat 10px -52px;
-  width: 213px;
-  height: 37px;
-  display: block;
-  margin: 12px 0px 0px 21px;
-  }
   .navbar-header-mobile{
     padding: 15px 2px;
   }
@@ -206,10 +199,25 @@
 .content-inspi{
   padding:0px;
 }
+.ft-menu,
+.ft-menu-item,
+.ft-menu-item ul{
+  text-align: center;
+}
+.ft-social ul li{
+  display: inline-block;
+  float: inherit;
+}
 .textspi-left .img-spi{
   width: auto;
 }
-
+.select-area h4{
+  text-align: center;
+  display: block;
+}
+.select-area{
+  text-align: center;
+}
 .hs-detail .cover{
   padding:0px;
 }
@@ -226,6 +234,12 @@
       display: block;
       height: 20px;
       width: 20px;
+}
+.ft-logo .link-ft-logo{
+  background: url('../images/logo-ft.png') no-repeat center center;
+  background-size: 216px 58px;
+  height: 58px;
+  width: auto;
 }
 .add-ft{
 padding-top: 20px;
@@ -314,6 +328,25 @@ padding-top: 20px;
   padding: 10px 0px;
   color: #010101;
 }
+.bg-home{
+  margin-top:74px;
+}
+.img-gogreen,
+.content-text,
+.detail-go-green{
+  padding:0px;
+}
+.content-text p{
+  text-align: inherit;
+}
+.content-gogreen{
+  overflow: hidden;
+}
+.content-gogreen img{
+  width: 100%;
+}
+.img-dealers{
+}
 .menu-mobile .hotline-m .hotline-text span .fa-phone{
   padding-right:10px;
 }
@@ -331,7 +364,7 @@ padding-top: 20px;
   background-color: #fff;
 }
 #global-nav{
-  line-height: 6px;
+  display: none;
 }
 /* INDEX close*/
 
@@ -369,7 +402,12 @@ padding-top: 20px;
 .box-content-body .featured-image img{
   width: 100%;
 }
-
+.navbar-inverse .navbar-nav>li>a{
+      color: #525252;
+}
+.navbar-inverse .navbar-nav>li{
+  border-bottom:1px solid #ececec;
+}
 /*DETAIL close*/
 
 
@@ -456,11 +494,10 @@ margin-top: 600px;
 only screen and (min-device-pixel-ratio: 2),
 screen and (-webkit-device-pixel-ratio: 1.5) {
     .menu-mobile  .navbar-logo-mobile{
-      background: url('../images/sprites.png') no-repeat 0px 5px;
-      background-size: 154px 39px;
-      width: 159px;
-      height: 31px;
-      display: block;
+      background: url(../images/logo-ft.png) no-repeat 17px 1px;
+background-size: 196px 48px;
+display: block;
+height: 58px;
     }
     input[type=search]{
       background: url('../images/ic-search@2x.png') no-repeat center 5px;
