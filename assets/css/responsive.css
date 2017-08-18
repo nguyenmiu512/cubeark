@@ -224,6 +224,19 @@
 .header{
   background-size: cover;
 }
+.cover-detail{
+  padding: 0px;
+}
+.cover-detail .link-title-inspi .title-inspi,
+.cover-detail .link-title-inspi .time-date{
+  width: 100%;
+}
+.cover-detail .link-title-inspi .time-date{
+  float:inherit;
+  text-align: left;
+  padding-bottom:10px;
+}
+
 .same-pj .item-pj{
   margin:10px 0px;
 }
