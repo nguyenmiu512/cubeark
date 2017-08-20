@@ -17,3 +17,25 @@
     background-size: cover !important;
     background-position: center !important
 }
+
+.home-arr-down {
+    position: fixed;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+    width: 48px;
+    margin: auto;
+    height: 48px;
+    opacity: 0.6;
+    background: url('../images/down-arrow.png');
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-arr-down:hover {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}

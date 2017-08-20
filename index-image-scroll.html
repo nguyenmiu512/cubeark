@@ -25,12 +25,17 @@
 
     <link rel="shortcut icon" href="assets/images/favicon.png" />
     <script>
-        $(function() {
+        $(document).ready(function() {
             $.scrollify({
                 section: ".home-image",
-                 easing: "easeOutExpo",
+                easing: "easeOutExpo",
             });
-        });
+
+            $('.home-arr-down').on('click', function(event) {
+                $.scrollify.next();
+            });
+
+        })
     </script>
 </head>
 
@@ -134,7 +139,7 @@
             <div class="home-image" style="background: url('assets/house/170810_House_12_Ext_People.jpg')">
 
             </div>
-                <div class="home-image" style="background: url('assets/house/170810_House_10_people.jpg')">
+            <div class="home-image" style="background: url('assets/house/170810_House_10_people.jpg')">
             </div>
             <div class="home-image" style="background: url('assets/house/170810_House_09_elk_Human.jpg')">
 
@@ -142,29 +147,13 @@
 
         </section>
 
-
+        <div class="home-arr-down"></div>
 
     </div>
 
 
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            var scrollTop = 0;
-            $(window).scroll(function() {
-                scrollTop = $(window).scrollTop();
-                $('.counter').html(scrollTop);
 
-                if (scrollTop >= 100) {
-                    $('#global-nav').addClass('scrolled-nav');
-                } else if (scrollTop < 100) {
-                    $('#global-nav').removeClass('scrolled-nav');
-                }
-
-            });
-
-        });
-    </script>
 
 
 </body>
