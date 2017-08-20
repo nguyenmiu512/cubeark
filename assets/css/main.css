@@ -663,7 +663,7 @@ margin: 0px 0px 10px 0px;
 }
 .filter-result .result-item a.link-result:hover,.filter-result .result-item:hover h4,
 .filter-result .result-item:hover span{
-  color:#afafaf;
+  /*color:#afafaf;*/
 }
 .filter-result .result-item h4{
   color:#000;
