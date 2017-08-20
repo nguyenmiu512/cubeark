@@ -26,13 +26,32 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" />
     <script>
         $(document).ready(function() {
+            var arrDown = $('.home-arr-down');
             $.scrollify({
                 section: ".home-image",
                 easing: "easeOutExpo",
+                after: function(i, panels) {
+
+
+                    if ((i + 1) === panels.length) {
+                        arrDown.addClass('home-arr-up');
+                    } else {
+                        if (arrDown.hasClass('home-arr-up')) {
+                            arrDown.removeClass('home-arr-up');
+                        }
+
+                    }
+                },
             });
 
-            $('.home-arr-down').on('click', function(event) {
-                $.scrollify.next();
+            arrDown.on('click', function(event) {
+                if (arrDown.hasClass('home-arr-up')) {
+                    $.scrollify.previous();
+                } else {
+                    $.scrollify.next();
+                }
+
+
             });
 
         })
@@ -141,7 +160,7 @@
             </div>
             <div class="home-image" style="background: url('assets/house/170810_House_10_people.jpg')">
             </div>
-            <div class="home-image" style="background: url('assets/house/170810_House_09_elk_Human.jpg')">
+            <div class="home-image" id="home-image-last" style="background: url('assets/house/170810_House_09_elk_Human.jpg')">
 
             </div>
 
