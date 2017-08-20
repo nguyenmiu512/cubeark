@@ -645,7 +645,7 @@ margin: 0px 0px 10px 0px;
 }
 .filter-result .result-item{
   margin-bottom:40px;
-  width: 350px;
+/*   width: 350px; */
   overflow: hidden;
   padding: 0px 17px;
 }
