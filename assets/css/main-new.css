@@ -36,12 +36,140 @@
 }
 
 .home-arr-up {
-
     background: url('../images/up-arrow.png');
-
 }
 
 .home-arr-down:hover {
     filter: alpha(opacity=100);
     opacity: 1;
+}
+
+.grey-bar {
+    background: #ddd;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin-bottom: 10px
+}
+
+.grey-bar h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.box-gogreen {
+    display: table;
+    width: 100%;
+    clear: both;
+    min-height: 800px;
+}
+
+.bg-gogreen {
+    background: url('../images/gogreen/background.png');
+    height: 911px;
+    width: 1137px;
+    margin: auto;
+    position: relative;
+}
+
+.gogreen-canvas {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.solarwater {
+    position: absolute;
+    background: url('../images/gogreen/solarwater.png');
+    width: 337px;
+    height: 177px;
+    top: 74px;
+    left: 465px;
+}
+
+.solarwater.active {
+    position: absolute;
+    background: url('../images/gogreen/solarwater.active.png');
+    width: 590px;
+    height: 251px;
+    top: 0px;
+    left: 465px;
+}
+
+
+.solarpanels {
+    position: absolute;
+    background: url('../images/gogreen/solarpanels.png');
+    width: 399px;
+    height: 193px;
+    top: 116px;
+    left: 10px;
+}
+
+.solarpanels.active {
+    position: absolute;
+    background: url('../images/gogreen/solarpanels.active.png');
+    width: 395px;
+    height: 340px;
+    top: 0px;
+    left: 7px;
+}
+
+.greenhouse {
+    position: absolute;
+    background: url('../images/gogreen/greenhouse.png');
+    width: 323px;
+    height: 183px;
+    top: 268px;
+    left: 854px;
+}
+
+.greenhouse.active {
+    position: absolute;
+    background: url('../images/gogreen/greenhouse.active.png');
+    width: 319px;
+    height: 353px;
+    top: 92px;
+    left: 850px;
+}
+
+
+.heatpump {
+    position: absolute;
+    background: url('../images/gogreen/heatpump.png');
+    width: 452px;
+    height: 278px;
+    top: 490px;
+    left: 302px;
+}
+
+.heatpump.active {
+    position: absolute;
+    background: url('../images/gogreen/heatpump.active.png');
+    width: 452px;
+    height: 278px;
+    top: 490px;
+    left: 302px;
+}
+
+
+.rainwater {
+    position: absolute;
+    background: url('../images/gogreen/rainwater.png');
+    width: 285px;
+    height: 204px;
+    top: 492px;
+    left: 950px;
+}
+
+.rainwater.active {
+    position: absolute;
+    background: url('../images/gogreen/rainwater.active.png');
+    width: 285px;
+    height: 263px;
+    top: 434px;
+    left: 952px;
 }
