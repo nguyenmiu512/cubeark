@@ -88,6 +88,7 @@
     height: 177px;
     top: 74px;
     left: 465px;
+    transition: all 0.4 ease;
 }
 
 .solarwater.active {
@@ -99,7 +100,6 @@
     left: 465px;
 }
 
-
 .solarpanels {
     position: absolute;
     background: url('../images/gogreen/solarpanels.png');
@@ -107,6 +107,7 @@
     height: 193px;
     top: 116px;
     left: 10px;
+    transition: all 0.4 ease;
 }
 
 .solarpanels.active {
@@ -125,6 +126,7 @@
     height: 183px;
     top: 268px;
     left: 854px;
+    transition: all 0.4 ease;
 }
 
 .greenhouse.active {
@@ -136,7 +138,6 @@
     left: 850px;
 }
 
-
 .heatpump {
     position: absolute;
     background: url('../images/gogreen/heatpump.png');
@@ -144,6 +145,7 @@
     height: 278px;
     top: 490px;
     left: 302px;
+    transition: all 0.4 ease;
 }
 
 .heatpump.active {
@@ -155,7 +157,6 @@
     left: 302px;
 }
 
-
 .rainwater {
     position: absolute;
     background: url('../images/gogreen/rainwater.png');
@@ -163,6 +164,7 @@
     height: 204px;
     top: 492px;
     left: 950px;
+    transition: all 0.4 ease;
 }
 
 .rainwater.active {
@@ -172,4 +174,76 @@
     height: 263px;
     top: 434px;
     left: 952px;
+}
+
+.btn-kontart {
+    width: 100%;
+    margin-top: 10px;
+    display: table;
+}
+
+.btn-kontart-text {
+    float: right;
+    margin-top: 28px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-top .btn-kontart-text {
+    color: #fff;
+    font-weight: normal;
+}
+
+.btn-kontart-icon {
+    background: url('../images/kontart-home.png');
+    width: 74px;
+    height: 47px;
+    display: block;
+    float: right;
+}
+
+.nav-top .btn-kontart-icon {
+    background: url('../images/kontart-home2.png');
+}
+
+.contact-demo-map {
+    background: url('../images/contact-demo-map.png');
+    width: 1120px;
+    height: 500px;
+}
+.address-boxes {
+    display: table;
+    width: 100%;
+}
+.address-boxes ul {
+    display: table;
+    width: 100%;
+    margin-top: 10px !important;
+}
+.address-boxes ul li {
+
+    padding-right: 20px;
+
+}
+
+.address-boxes ul li .address-box {
+        background: #f3f3f5;
+        padding: 20px;
+}
+
+.address-title {
+    font-size: 24px;
+}
+
+.address-street {
+    margin-top: 20px;
+}
+
+
+.address-email {
+    margin-top: 20px;
+    color: #681922;
+    text-decoration: underline;
 }
