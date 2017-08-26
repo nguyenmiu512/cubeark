@@ -359,6 +359,19 @@
                                 <a href="#" class="ic-in"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                             </li>
                         </ul>
+                        <h3>
+                        <a href="#">LANGUAGE</a>
+                        </h3>
+                        <ul>
+                            <li>
+                                <a href="#" ><img src="assets/images/flags/us.png" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/images/flags/no.png" /></a>
+                            </li>
+
+                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -366,206 +379,7 @@
         <!-- Footer close-->
     </div>
 
-    <script>
-        (function() {
-            var canvas = document.getElementById("canvas");
-            var ctx = canvas.getContext("2d");
-            var cw = canvas.width;
-            var ch = canvas.height;
-            var offsetX, offsetY;
 
-            reOffset();
-            window.onscroll = function(e) {
-                reOffset();
-            }
-
-            var isDown = false;
-            var startX, startY;
-            var paths = [{
-                fillStyle: 'rgba(255,246,0,0.5)',
-                className: 'solarwater',
-                path: [{
-                        x: 425,
-                        y: 231
-                    }, {
-                        x: 466,
-                        y: 216
-                    }, {
-                        x: 625,
-                        y: 275
-                    }, {
-                        x: 595,
-                        y: 300
-                    },
-
-                ]
-            }, {
-                fillStyle: 'rgba(1,143,229,0.5)',
-                className: 'solarpanels',
-                path: [{
-                        x: 252,
-                        y: 292
-                    }, {
-                        x: 415,
-                        y: 234
-                    }, {
-                        x: 592,
-                        y: 302
-                    }, {
-                        x: 476,
-                        y: 383
-                    },
-
-                ]
-            }, {
-                fillStyle: 'rgba(36,255,129,0.5)',
-                className: 'greenhouse',
-                path: [{
-                        x: 784,
-                        y: 615
-                    }, {
-                        x: 797,
-                        y: 472
-                    }, {
-                        x: 828,
-                        y: 407
-                    }, {
-                        x: 944,
-                        y: 450
-                    }, {
-                        x: 936,
-                        y: 527
-                    }, {
-                        x: 919,
-                        y: 634
-                    },
-
-                ]
-            }, {
-                fillStyle: 'rgba(233,22,22,0.5)',
-                className: 'heatpump',
-                path: [{
-                        x: 295,
-                        y: 501
-                    }, {
-                        x: 296,
-                        y: 485
-                    }, {
-                        x: 316,
-                        y: 474
-                    }, {
-                        x: 326,
-                        y: 474
-                    }, {
-                        x: 326,
-                        y: 485
-                    }, {
-                        x: 306,
-                        y: 501
-                    },
-
-                ]
-            }, {
-                fillStyle: 'rgba(48,184,255,0.5)',
-                className: 'rainwater',
-                path: [{
-                        x: 937,
-                        y: 542
-                    }, {
-                        x: 948,
-                        y: 450
-                    }, {
-                        x: 967,
-                        y: 452
-                    }, {
-                        x: 982,
-                        y: 455
-                    }, {
-                        x: 992,
-                        y: 459
-                    }, {
-                        x: 1002,
-                        y: 465
-                    }, {
-                        x: 992,
-                        y: 538
-                    }, {
-                        x: 982,
-                        y: 545
-                    }, {
-                        x: 967,
-                        y: 545
-                    }, {
-                        x: 948,
-                        y: 545
-                    }
-
-
-                ]
-            }];
-
-            draw();
-
-            $("#canvas").mousemove(function(e) {
-                handleMouseMove(e);
-            });
-
-
-            function draw(highlight) {
-                ctx.clearRect(0, 0, cw, ch);
-                for (var i = 0; i < paths.length; i++) {
-                    ctx.fillStyle = paths[i].fillStyle;
-                    var path = paths[i].path;
-                    define(path);
-                    ctx.lineWidth = 10;
-                    ctx.strokeStyle = paths[i].fillStyle;
-                    ctx.stroke();
-                    if (i == highlight) {
-                        ctx.fill();
-                        $('.' + paths[i].className).addClass('active');
-                    } else {
-                        $('.' + paths[i].className).removeClass('active');
-                    }
-                }
-            }
-
-            function define(p) {
-                ctx.beginPath();
-                ctx.moveTo(p[0].x, p[0].y);
-                for (var i = 0; i < p.length; i++) {
-                    ctx.lineTo(p[i].x, p[i].y);
-                }
-                ctx.closePath();
-            }
-
-            function handleMouseMove(e) {
-
-                // tell the browser we're handling this event
-                e.preventDefault();
-                e.stopPropagation();
-
-                mouseX = parseInt(e.clientX - offsetX);
-                mouseY = parseInt(e.clientY - offsetY);
-
-                var highlight = -1;
-                for (var i = 0; i < paths.length; i++) {
-                    var path = paths[i].path;
-                    define(path);
-                    if (ctx.isPointInPath(mouseX, mouseY)) {
-                        highlight = i;
-                    }
-                }
-                draw(highlight);
-
-            }
-
-            function reOffset() {
-                var BB = canvas.getBoundingClientRect();
-                offsetX = BB.left;
-                offsetY = BB.top;
-            }
-        })();
-    </script>
 
 
 </body>
